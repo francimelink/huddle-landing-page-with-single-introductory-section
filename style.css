@@ -291,6 +291,7 @@ section a {
 
 	main>section {
 		margin-top: 0;
+		height: inherit;
 	}
 
 	main h1 {
@@ -304,6 +305,9 @@ section a {
 	}
 
 	.icons {
+		margin: 0 auto;
+		width: 100%;
+		max-width: 1296px;
 		justify-content: flex-end;
 	}
 }
