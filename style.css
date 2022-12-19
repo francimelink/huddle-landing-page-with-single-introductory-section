@@ -251,7 +251,8 @@ section a {
 @media only screen and (min-width: 600px) {
 	body {
 		background-image: url('images/bg-desktop.svg');
-		background-repeat: no-repeat;
+		background-size: cover;
+		background-position: center;
 		padding: 2.5rem;
 	}
 }
